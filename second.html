@@ -2,43 +2,42 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="mystyle.css">
-    <title>My dog Deka's favorite toys</title>
+    <title>My dog Deka</title>
 </head>
 
 <body>
-
     <header>
-        <div class="headerText">
-            <h1 class="header1">Deka the sam</h1>
-            <div id="headersm">Welcome to Deka's page!</div>
+        <div class="jumbotron text-center">
+            <h1>Deka the sam</h1>
         </div>
-        <nav class="menu" id="navigation">
-            <ul>
-                <li><a href="index.html">Deka</a></li>
-                <li><a href="second.html">Pink Piggy</a></li>
-		<li><a href="third.html">Friends</a></li>
-		<li><a href="bootstrap.html"> Bootstrap </a></li>
-            </ul>
-        </nav>
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">Menu
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="index.html">Deka</a>
+                    <a href="second.html">Pink Piggy</a>
+                    <a href="third.html">Friends</a>
+                    <a href="fourth.html"> Pictures </a>
+                </div>
+            </div>
+        </div>
     </header>
     <section id="purple">
         <div class="column">
             <h2 id="faveToy">Deka the samoyed's favorite toy </h2>
-            <p>My favorite toy</p>
+            <p>My favorite toy is a squeaky pig that humans can't hear!</p>
             <figure>
-                <img src="favepiggy.jpeg" alt="Pink pig plush toy for dogs" style="width:500px;height:600px;">
-                <figcaption>Pink piggy</figcaption>
+                <img src="favepiggy.jpeg" alt="Pink pig plush toy for dogs" alt="A pink piggy plush">
             </figure>
-            <dl>
-                <dt>My pink squeaky pig</dt>
-                <dd>-Doesn't actually squeak</dd>
-            </dl>
         </div>
     </section>
-    <label for="course">My progress in FoWD course</label>
-    <progress id="course" value="25" max="100"> 15% </progress>
 </body>
 
 </html>

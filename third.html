@@ -2,41 +2,51 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="mystyle.css">
-    <title>Deka's friends</title>
+    <title>My dog Deka</title>
 </head>
 
 <body>
     <header>
-        <div class="headerText">
-            <h1 class="header1">Deka the sam</h1>
-            <div id="headersm">Welcome to Deka's page!</div>
+        <div class="jumbotron text-center">
+            <h1>Deka the sam</h1>
         </div>
-                <nav class="menu" id="navigation">
-            <ul>
-                <li><a href="index.html">Deka</a></li>
-                <li><a href="second.html">Pink Piggy</a></li>
-		<li><a href="third.html">Friends</a></li>
-		<li><a href="bootstrap.html"> Bootstrap </a></li>
-            </ul>
-	        <li><a href="https://www.youtube.com/watch?v=7Rh-f96YZ6g" target="_blank">Deka howling at siren</a></li>
-		<li><a href=" https://www.youtube.com/watch?v=_T365xo2jj0" target="_blank">Dog munch ASMR</a></li>
-            </ul>
-        </nav>
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">Menu
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="index.html">Deka</a>
+                    <a href="second.html">Pink Piggy</a>
+                    <a href="third.html">Friends</a>
+                    <a href="fourth.html"> Pictures </a>
+                </div>
+            </div>
+        </div>
     </header>
     <section id="friends3">
         <div class="column">
             <img src="shoobie.jpg" id=shoobie alt="Cutest dog in the world">
             <h2 id="friends">My friends</h2>
-            <p> I have many friends, such as:</p>
-            <ul>
-                <li>Nätti the mittelspitz</li>
-                <li>Bella the pomeranian</li>
-                <li>Hiro the shiba inu</li>
-                <li>Kinuski the kleinspitz</li>
-            </ul>
-        </div>
+            <p> I have many friends:</p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h3>Nätti the Mittelspitz</h3>
+                    </div>
+                    <div class="col-sm-4">
+                        <h3>Bella the Pomeranian</h3>
+                    </div>
+                    <div class="col-sm-4">
+                        <h3>Hiro the Shiba Inu</h3>
+                    </div>
+                </div>
+            </div>
     </section>
 </body>
 
