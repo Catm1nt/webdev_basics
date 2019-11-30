@@ -21,7 +21,13 @@ li {
 	padding: 5px;
 }
 
-
+#shoobie{
+   object-fit:contain;
+   max-height: 100%;
+   max-width: 100%;    
+   display: block;
+   margin: auto auto;
+}
 /*defines border style for h1 element*/
 h1 {
     border: 5px;
@@ -55,6 +61,7 @@ h1 {
 /* Selects any <a> element when "hovered" */
 a:hover {
   color: red;
+  transition; 0,6 ms;
 }
 
 #shoobie {
@@ -73,4 +80,12 @@ a:hover {
 
 #purple {
     background-color: #c092fc;
+}
+
+.container {
+	border-style: solid;
+    border-color: #6600cc;
+    border-radius: 20px;
+    background-color: black;
+	padding: 20px;
 }
